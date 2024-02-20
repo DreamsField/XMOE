@@ -97,7 +97,7 @@ $(function () {
   $(function () {
     jQuery(document).ready(function () {
       $('#home').backstretch([
-        "img/beijin/beijing0.jpg"
+        "img/beijin/1.webp"
       ], { duration: 2000, fade: 750 });
     });
   })

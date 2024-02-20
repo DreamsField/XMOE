@@ -2,7 +2,6 @@ var getting = {
 	url: 'https://www.sunsserver.top/motdbe/api.php?ip=mc.xmoe.top&port=19111',
 	dataType: 'json',
 	success: function (res) {
-		console.log();
 		if (res.code = 200) {
 			if (res.status == "online") {
 				var servermotd = res.motd
@@ -33,4 +32,5 @@ var getting = {
 		}
 	}
 };
+console.log(getting.res);
 setInterval(function () { $.ajax(getting) }, 1000);
