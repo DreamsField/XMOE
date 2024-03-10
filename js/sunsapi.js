@@ -1,5 +1,5 @@
 var getting = {
-	url: 'https://www.mcmap.top/motd?ip=mc.xmoe.top&port=19111',
+	url: '',
 	dataType: 'json',
 	success: function (res) {
 		if (res.code = 200) {
