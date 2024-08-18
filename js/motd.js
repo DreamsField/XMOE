@@ -1,6 +1,6 @@
 var getting = {
 	url: 'https://mcmap.top/motd?ip=fycx.xmoe.top&port=1035',
-	dataType: 'jsonp',
+	dataType: 'json',
 	success: function (res) {
 		if (res.code = 200) {
 			if (res.status == "online") {
