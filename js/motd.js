@@ -1,8 +1,8 @@
 var getting = {
-	url: 'https://mcmap.top/motd?ip=fycx.xmoe.top&port=1035',
+	url: 'https://mcmap.top/motd/?ip=mc.xmoe.top&port=19111',
 	dataType: 'json',
 	success: function (res) {
-		if (res.code = 200) {
+		if (res.code === 200) {
 			if (res.status == "online") {
 				var servermotd = res.motd
 				var serverstatus = "在线"
